@@ -1,20 +1,85 @@
+/* COLOR PALETTE
+#8CFF98 - light green
+#2274A5 - dark blue
+#011627 - soft black
+#BB4430 - dark orange
+#CAE9FF - light blue
+*/
+
+/* GLOBAL STYLES
+---------------------------------------------- */
+nav {
+    background-color: #011627;
+    color: white; 
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #011627;
+}
 img {
     width: 300px;
 }
-body {
+a {
+    color: #8CFF98;
+    text-decoration: none;
+}
+/* a:visited { 
+    color: #BB4430;
+}*/
+
+/* PROFILE STYLES
+---------------------------------------------- */
+.profile {
     background-color: #011627;
+    color: white; 
 }
 
-.title, h1, h2, h3, p {
+
+/* PROJECTS STYLES
+---------------------------------------------- */
+.projects {
+    background-color: #CAE9FF;
+    color: #011627;
+}
+.projects a {
+    background-color: #BB4430;
     color: white;
-    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects a:hover {
+    background-color: rgba(187, 68, 48, 80);
 }
 
 
-/* p { */
-    /* color: #8CFF98; */
-    /* color: #2274A5; */
-    /* color: #011627; */
-    /* color: #BB4430; */
-    /* color: #CAE9FF; */
-/* } */
+/* WORK EXPERIENCE STYLES
+---------------------------------------------- */
+.work-experience {
+    background-color: #011627;
+    color: white; 
+}
+
+
+/* EDUCATION STYLES
+---------------------------------------------- */
+.education {
+    background-color: #CAE9FF;
+    color: #011627; 
+}
+
+
+/* CERTIFICATIONS STYLES
+---------------------------------------------- */
+.certifications {
+    background-color: #CAE9FF;
+    color: #011627; 
+}
+
+
+/* CONTACT INFO STYLES
+---------------------------------------------- */
+footer {
+    background-color: #011627;
+    color: white; 
+}
