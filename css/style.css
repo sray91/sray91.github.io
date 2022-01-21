@@ -37,6 +37,9 @@ h2 {
     margin: 0 auto;
     padding: 60px 0;
 }
+p {
+    text-align: center;
+}
 
 
 /* PROFILE STYLES
@@ -45,6 +48,10 @@ h2 {
     background-color: #011627;
     color: white; 
 }
+.title {
+    font-size: 4em;
+    text-align: center;
+}
 
 
 /* PROJECTS STYLES
@@ -52,6 +59,7 @@ h2 {
 .projects {
     background-color: #CAE9FF;
     color: #011627;
+    text-align: center;
 }
 .projects a {
     background-color: #BB4430;
@@ -71,6 +79,9 @@ h2 {
     background-color: #011627;
     color: white; 
 }
+.work-experience h2 {
+    text-align: center;
+}
 
 
 /* EDUCATION STYLES
@@ -78,6 +89,7 @@ h2 {
 .education {
     background-color: #CAE9FF;
     color: #011627; 
+    text-align: center;
 }
 
 
@@ -86,6 +98,7 @@ h2 {
 .certifications {
     background-color: #CAE9FF;
     color: #011627; 
+    text-align: center;
 }
 
 
@@ -94,4 +107,7 @@ h2 {
 footer {
     background-color: #011627;
     color: white; 
+}
+footer h2 {
+    text-align: center;
 }
