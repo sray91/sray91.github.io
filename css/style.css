@@ -14,6 +14,8 @@ nav {
 }
 body {
     font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 img {
     width: 300px;
@@ -22,9 +24,15 @@ a {
     color: #8CFF98;
     text-decoration: none;
 }
-/* a:visited { 
-    color: #BB4430;
-}*/
+h2 {
+    margin: 0;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
 
 /* PROFILE STYLES
 ---------------------------------------------- */
