@@ -29,7 +29,7 @@ header img {
     border-radius: 32px;
 }
 img {
-    width: 300px;
+    width: 150px;
     border-radius: 16px;
 }
 a {
@@ -65,8 +65,8 @@ p {
 /* PROJECTS STYLES
 ---------------------------------------------- */
 .projects {
-    background-color: #CAE9FF;
-    color: #011627;
+    background-color: #011627;
+    color: white; 
     text-align: center;
 }
 .projects a {
@@ -84,8 +84,8 @@ p {
 /* WORK EXPERIENCE STYLES
 ---------------------------------------------- */
 .work-experience {
-    background-color: #011627;
-    color: white; 
+    background-color: #CAE9FF;
+    color: #011627; 
 }
 .work-experience h2 {
     text-align: center;
@@ -95,8 +95,8 @@ p {
 /* EDUCATION STYLES
 ---------------------------------------------- */
 .education {
-    background-color: #CAE9FF;
-    color: #011627; 
+    background-color: #011627;
+    color: white; 
     text-align: center;
 }
 
