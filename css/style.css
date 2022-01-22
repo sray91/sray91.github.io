@@ -142,6 +142,7 @@ nav h1 {
 }
 .my-journey h2 {
     text-align: center;
+    padding-bottom: 20px;
 }
 .journey-item {
     display: grid;
