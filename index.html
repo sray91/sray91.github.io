@@ -10,43 +10,93 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
+        <!-- NAVBAR -->
         <nav>
             <h1>SWANAGAN</h1>
             <ul class="nav-list">
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">My Journey</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#communities">Communities</a></li>
+                <li><a href="#my-thoughts">Thoughts</a></li>
+                <li><a href="#my-journey">My Journey</a></li>
+                <li><a href="#contacts">Contact</a></li>
             </ul>
         </nav>
         <main>
-            <header class="hero-image">
+            <!-- HERO -->
+            <header class="hero-image" id="profile">
                 <div class="content-wrap">
                     <h1 class="title">Hi, I'm Swanagan</h1>
                 </div>
             </header>
-            <section class="projects">
+            <!-- INSPIRATION -->
+            <section class="inspiration" id="inspiration">
+                <div class="content-wrap">
+                    <h2>Inspiration</h2>
+                </div>
+            </section>
+            <!-- PROJECTS -->
+            <section class="projects" id="projects">
                 <div class="content-wrap">
                     <h2>Featured Projects</h2>
                     <p>
                         View selected projects below.
                     </p>
-                    <section class="project_1">
-                        <h3>swayfit.xyz</h3>
-                        <img src="images/swayFitLogoWords.png" alt="SwayFit logo">
+                    <!-- PROJECT 1 -->
+                    <section class="project-item">
+                        <div class="project-pic">
+                            <img src="images/swayFitLogoWords.png" alt="SwayFit logo">  
+                        </div>
+                        <div class="project-details">
+                            <h3>SwayFit</h3>
+                        </div>
+                        <div class="project-summary">
+                            <p>Fitness company that utilizes Web3 and machine learning to optimize physical fitness.</p>
+                            <a href="https://swayfit.xyz" target="_blank">swayfit.xyz</a>
+                        </div>
                     </section>
-                    <section class="project_2">
-                        <h3>GreenWavez</h3>
-                        <img src="images/greenwavezlogo.png" alt="GreenWavez logo">
+                    <!-- PROJECT 2 -->
+                    <section class="project-item">
+                        <div class="project-pic">
+                            <img src="images/greenwavezlogo.png" alt="GreenWavez logo">
+                        </div>
+                        <div class="project-details">
+                            <h3>GreenWavez</h3>
+                        </div>
+                        <div class="project-summary">
+                            <p>Environment-conscious clothing brand.</p>
+                            <a href="https://greenwavez.biz" target="_blank">greenwavez.biz</a>
+                        </div>
                     </section>
-                    <section class="project_3">
-                        <h3>eeWatchGuy</h3>
-                        <img src="images/eeWatchGuyLogo.png" alt="eeWatchGuy logo">
-                        <a href="http://eewatchguy.com" target="_blank">eewatchguy.com</a>.
+                    <!-- PROJECT 3 -->
+                    <section class="project-item">
+                        <div class="project-pic">
+                            <img src="images/eeWatchGuyLogo.png" alt="eeWatchGuy logo">
+                        </div>
+                        <div class="project-details">
+                            <h3>eeWatchGuy</h3>
+                        </div>
+                        <div class="project-summary">
+                            <p>Personal blog for writing about blockchain projects, books I've read, and other observations.</p>
+                            <a href="https://eewatchguy.com" target="_blank">eewatchguy.com</a>
+                        </div>
                     </section>
                 </div>
             </section>
-            <section class="my-journey">
+            <!-- COMMUNITIES -->
+            <section class="communities" id="communities">
+                <div class="content-wrap">
+                    <h2>Communities I'm active in</h2>
+                </div>
+            </section>
+            <!-- MY THOUGHTS -->
+            <section class="my-thoughts" id="my-thoughts">
+                <div class="content-wrap">
+                    <h2>Current thoughts</h2>
+                </div>    
+            </section>
+            <!-- MY JOURNEY -->
+            <section class="my-journey" id="my-journey">
                 <div class="content-wrap">
                     <h2>My Journey</h2>
                     <!-- Journey Item 1 -->
@@ -57,7 +107,7 @@
                         <div class="journey-details">
                             <h3>PE Certification</h3>
                             <h4>SC Registered Engineer</h4>
-                            <p>Novemeber 2021 - Current</p>
+                            <p>November 2021 - Current</p>
                         </div>
                         <div class="journey-summary">
                             <p>Passed the 8-hour PE exam after obtaining the recommendation from 3 other registered PEs.</p>
@@ -80,12 +130,125 @@
                             </ul>
                         </div>
                     </section>
+                    <!-- Journey Item 3 -->
+                    <section class="journey-item">
+                        <div class="journey-pic">
+                            <img src="images/quanticLogo.png" alt="Quantic logo">
+                        </div>
+                        <div class="journey-details">
+                            <h3>Quantic School of Business & Technology</h3>
+                            <h4>MBA program</h4>
+                            <p>May 2021 - Current</p>
+                        </div>
+                        <div class="journey-summary">
+                            <p>Started working on my MBA online.</p>
+                        </div>
+                    </section>
+                    <!-- Journey Item 4 -->
+                    <section class="journey-item">
+                        <div class="journey-pic">
+                            <img src="images/dupontLogo.png" alt="DuPont logo">
+                        </div>
+                        <div class="journey-details">
+                            <h3>DuPont</h3>
+                            <h4>Operations Manager</h4>
+                            <p>April 2019 - April 2021</p>
+                        </div>
+                        <div class="journey-summary">
+                            <p>Moved to the Charleston, SC area to work for DuPont as an operations manager of chemical plant.</p>
+                        </div>
+                    </section>
+                    <!-- Journey Item 5 -->
+                    <section class="journey-item">
+                        <div class="journey-pic">
+                            <img src="images/engineeredVision.jpeg" alt="EV logo">
+                        </div>
+                        <div class="journey-details">
+                            <h3>Engineered Vision</h3>
+                            <h4>Consulting Engineer</h4>
+                            <p>August 2018 - March 2020</p>
+                        </div>
+                        <div class="journey-summary">
+                            <p>Worked part-time as an engineer with a pharmaceutical robotics start-up company.</p>
+                        </div>
+                    </section>
+                    <!-- Journey Item 6 -->
+                    <section class="journey-item">
+                        <div class="journey-pic">
+                            <img src="images/alarmdotcomLogo.png" alt="alarm.com logo">
+                        </div>
+                        <div class="journey-details">
+                            <h3>Control Squared</h3>
+                            <h4>Owner</h4>
+                            <p>March 2019 - March 2021</p>
+                        </div>
+                        <div class="journey-summary">
+                            <p>Owned and operated a home automation and security business with ~ 40 customers.</p>
+                        </div>
+                    </section>
+                    <!-- Journey Item 7 -->
+                    <section class="journey-item">
+                        <div class="journey-pic">
+                            <img src="images/kurarayLogo.jpeg" alt="kuraray logo">
+                        </div>
+                        <div class="journey-details">
+                            <h3>Kuraray</h3>
+                            <h4>Electrical Engineer</h4>
+                            <p>January 2017 - April 2019</p>
+                        </div>
+                        <div class="journey-summary">
+                            <p>Worked as an Electrical Engineer/Control Systems Engineer for Kuraray America in WV and NC.</p>
+                        </div>
+                    </section>
+                    <!-- Journey Item 8 -->
+                    <section class="journey-item">
+                        <div class="journey-pic">
+                            <img src="images/sixSigmaGreenBeltLogo.jpeg" alt="green belt logo">
+                        </div>
+                        <div class="journey-details">
+                            <h3>Six Sigma Green Belt</h3>
+                            <h4>DuPont Certification</h4>
+                            <p>August 2016</p>
+                        </div>
+                        <div class="journey-summary">
+                            <p>Completed a Green Belt project that resulted in $60k/year in hard savings.</p>
+                        </div>
+                    </section>
+                    <!-- Journey Item 9 -->
+                    <section class="journey-item">
+                        <div class="journey-pic">
+                            <img src="images/dupontLogo.png" alt="dupont logo">
+                        </div>
+                        <div class="journey-details">
+                            <h3>DuPont</h3>
+                            <h4>Control Systems Engineer</h4>
+                            <p>May 2015 - January 2017</p>
+                        </div>
+                        <div class="journey-summary">
+                            <p>Started at DuPont out of college, and moved to a senior engineering position 6 months later.</p>
+                        </div>
+                    </section>
+                    <!-- Journey Item 10-->
+                    <section class="journey-item">
+                        <div class="journey-pic">
+                            <img src="images/ohioUniversityLogo.jpeg" alt="OU logo">
+                        </div>
+                        <div class="journey-details">
+                            <h3>Ohio University</h3>
+                            <h4>Bachelor of Science, Electrical Engineering</h4>
+                            <p>January 2012 - May 2015</p>
+                        </div>
+                        <div class="journey-summary">
+                            <p>Tau Beta Pi, Cum Laude, 1st place student expo for senior project "Build a Mini Digital Oscilloscope."</p>
+                        </div>
+                    </section>
                 </div>
             </section>
         </main>
+        <!-- CONTACT -->
         <footer>
             <div class="content-wrap">
-                <h2>Contact info</h2>
+                <h2 id="contact">Contact info</h2>
                 <ul class="contact-list">
                     <li><a href="#">Email</a></li>
                     <li><a href="#">LinkedIn</a></li>

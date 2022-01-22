@@ -84,6 +84,13 @@ nav h1 {
     padding-top: 300px;
 }
 
+/* INSPIRATION STYLES
+---------------------------------------------- */
+.inspiration {
+    background-color: #CAE9FF;
+    color: #011627; 
+    text-align: center;
+}
 
 /* PROJECTS STYLES
 ---------------------------------------------- */
@@ -102,7 +109,26 @@ nav h1 {
 .projects a:hover {
     background-color: rgba(187, 68, 48, 80);
 }
+.project-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
 
+/* COMMUNITIES STYLES
+---------------------------------------------- */
+.communities {
+    background-color: #CAE9FF;
+    color: #011627; 
+    text-align: center;
+}
+
+/* THOUGHTS STYLES
+---------------------------------------------- */
+.my-thoughts {
+    background-color: #011627;
+    color: white; 
+    text-align: center;
+}
 
 /* MY JOURNEY STYLES
 ---------------------------------------------- */
