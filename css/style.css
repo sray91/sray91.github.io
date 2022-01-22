@@ -111,7 +111,7 @@ nav h1 {
 }
 .journey-item {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 2fr;
 }
 
 /* CONTACT INFO STYLES
