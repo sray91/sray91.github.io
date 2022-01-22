@@ -97,7 +97,10 @@ nav h1 {
 .projects {
     background-color: #011627;
     color: white; 
+}
+.projects h2 {
     text-align: center;
+    padding-bottom: 30px;
 }
 .projects a {
     background-color: #BB4430;
@@ -112,6 +115,7 @@ nav h1 {
 .project-item {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
+    gap: 20px;
 }
 
 /* COMMUNITIES STYLES
@@ -142,6 +146,7 @@ nav h1 {
 .journey-item {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
+    gap: 20px;
 }
 
 /* CONTACT INFO STYLES
