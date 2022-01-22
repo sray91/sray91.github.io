@@ -8,10 +8,6 @@
 
 /* GLOBAL STYLES
 ---------------------------------------------- */
-nav {
-    background-color: #011627;
-    color: white; 
-}
 html {
     box-sizing: border-box;
 }
@@ -47,7 +43,30 @@ h2 {
 p {
     text-align: center;
 }
-
+/* NAVBAR STYLES
+---------------------------------------------- */
+nav {
+    background-color: #011627;
+    color: white; 
+    padding: 8px;
+    display: flex;
+    position: fixed;
+    border: 4px solid white;
+}
+nav h1 {
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    border: 4px solid white;
+}
+.nav-list a {
+    padding: 16px;
+    display: inline-block;
+}
 
 /* PROFILE STYLES
 ---------------------------------------------- */
@@ -81,41 +100,34 @@ p {
 }
 
 
-/* WORK EXPERIENCE STYLES
+/* MY JOURNEY STYLES
 ---------------------------------------------- */
-.work-experience {
+.my-journey {
     background-color: #CAE9FF;
     color: #011627; 
 }
-.work-experience h2 {
+.my-journey h2 {
     text-align: center;
 }
-
-
-/* EDUCATION STYLES
----------------------------------------------- */
-.education {
-    background-color: #011627;
-    color: white; 
-    text-align: center;
+.journey-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
-
-
-/* CERTIFICATIONS STYLES
----------------------------------------------- */
-.certifications {
-    background-color: #CAE9FF;
-    color: #011627; 
-    text-align: center;
-}
-
 
 /* CONTACT INFO STYLES
 ---------------------------------------------- */
 footer {
     background-color: #011627;
     color: white; 
-}
-footer h2 {
     text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a {
+    padding: 16px;
+    display: inline-block;
 }
