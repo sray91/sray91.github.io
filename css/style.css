@@ -99,8 +99,21 @@ nav h1 {
     color: white; 
 }
 .projects h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding-bottom: 30px;
+}  
+.projects h2:before, h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+.projects h2:after {
+    margin: 0 0 0 20px;
 }
 .projects a {
     background-color: #BB4430;
@@ -125,13 +138,46 @@ nav h1 {
     color: #011627; 
     text-align: center;
 }
-
+.communities h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}  
+.communities h2:before, h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+.communities h2:after {
+    margin: 0 0 0 20px;
+}
 /* THOUGHTS STYLES
 ---------------------------------------------- */
 .my-thoughts {
     background-color: #011627;
     color: white; 
     text-align: center;
+}
+.my-thoughts h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}  
+.my-thoughts h2:before, h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+.my-thoughts h2:after {
+    margin: 0 0 0 20px;
 }
 
 /* MY JOURNEY STYLES
@@ -143,6 +189,23 @@ nav h1 {
 .my-journey h2 {
     text-align: center;
     padding-bottom: 20px;
+}
+.my-journey h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}  
+.my-journey h2:before, h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+.my-journey h2:after {
+    margin: 0 0 0 20px;
 }
 .journey-item {
     display: grid;
