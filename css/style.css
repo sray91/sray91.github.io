@@ -28,7 +28,9 @@ h2 {
     margin: 0;
 }
 .content-wrap {
-    width: 800px;
+    max-width: 800px;
+    /* when the viewport is smaller than the max-width, it switches to the width */
+    width: 85%;
     margin: 0 auto;
     padding: 60px 0;
 }
@@ -36,6 +38,7 @@ h2 {
 ---------------------------------------------- */
 nav {
     background-color: #011627;
+    font-weight: 900;
     color: white; 
     padding: 8px;
     display: flex;
@@ -49,6 +52,7 @@ nav {
 nav h1 {
     justify-content: left;
     padding-top: 8px;
+    padding-left: 8px;
 }
 .nav-list {
     display: flex;
