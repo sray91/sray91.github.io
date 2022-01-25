@@ -221,6 +221,28 @@ nav h1 {
     margin: 0;
     padding: 0;
 }
+.journey-bg-pic-sc {
+    height: 300px;
+    background-image: url(../images/charleston_skyline_background.jpeg);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-weight: 900;
+    font-size: 4em;
+    align-content: center;
+}
+.journey-bg-pic-wv {
+    height: 300px;
+    background-image: url(../images/wv_skyline_background.jpeg);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-weight: 900;
+    font-size: 4em;
+    align-content: center;
+}
 
 /* CONTACT INFO STYLES
 ---------------------------------------------- */
