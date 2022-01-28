@@ -238,6 +238,13 @@ nav h1 {
     font-size: 4em;
     align-content: center;
 }
+.grow {
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.1);
+}
+
 
 /* CONTACT INFO STYLES
 ---------------------------------------------- */
