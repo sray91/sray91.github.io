@@ -92,6 +92,23 @@ nav h1 {
     color: #011627; 
     text-align: center;
 }
+.inspiration h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}  
+.inspiration h2:before, h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+.inspiration h2:after {
+    margin: 0 0 0 20px;
+}
 
 /* PROJECTS STYLES
 ---------------------------------------------- */
