@@ -15,4 +15,5 @@ document.addEventListener("DOMContentLoaded", function() {
         setTimeout(typeWriter, speed);
       }
     }
+  }
 });
