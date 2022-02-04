@@ -10,4 +10,4 @@ function typeWriter() {
   }
 }
 
-document.onload = typeWriter;
+document.onload = typeWriter();
