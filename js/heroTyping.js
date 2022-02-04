@@ -1,6 +1,6 @@
 var i = 0;
-var txt = 'Hi, I am Swanagan'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var txt = "Hi, I'm Swanagan"; /* The text */
+var speed = 75; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
   if (i < txt.length) {
