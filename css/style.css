@@ -109,6 +109,16 @@ nav h1 {
 .inspiration h2:after {
     margin: 0 0 0 20px;
 }
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
 
 /* PROJECTS STYLES
 ---------------------------------------------- */
