@@ -1,21 +1,80 @@
 { 
-    "Nothing good comes from being comfortable.": "Jack White",
-    "Audacity augments courage; hesitation, fear.": "Publilius Syrus",
-    "Hard choices, easy life. Easy choices, hard life.": "Jerzy Gregorek",
-    "If more information was the answer, then we'd all be billionaires with perfect abs.": "Derek Divers",
-    "Don't be a donkey (Aesop's fable); you can do everything you want to do. You just need foresight and patience.": "Derek Sivers",
-    "Lack of time is lack of priorities.": "Tim Ferriss", 
-    "Never go to sleep without a request to your subconscious": "Thomas Edison",
-    "Success is when reality catches up to our imagination.": "Simon Sinek",
-    "A writer—and, I believe, generally all persons—must think that whatever happens to him or her is a resource. All things have been given to us for a purpose, and an artist must feel this more intensely. All that happens to us, including our humiliations, our misfortunes, our embarrassments, all is given to us as raw material, as clay, so that we may shape our art.": "Jorge Luis Borges",
-    "Most geniuses—especially those who lead others—prosper not by deconstructing intricate complexities but by exploiting unrecognized simplicities.": "Andy Benoit",
-    "Be tolerant with others and strict with yourself.": "Marcus Aurelius",
-    "If a man knows not to which port he sails, no wind is favorable.": "Seneca",
-    "Inaction breeds doubt and fear. Action breeds confidence and courage. If you want to conquer the negative elements in your life, don’t sit at home and think about it. Go out and get busy!": "Dale Carnegie",
-    "People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things.": "Steve Jobs",
-    "‘No one is useless in this world,’ retorted the Secretary, ‘who lightens the burden of it for anyone else.’": "Charles Dickens, Our Mutual Friend",
-    "The secret to handling change is to focus on progress. If you can make progress on a regular basis, then you feel alive.": "Tony Robbins",
-    "All great leaders are optimists. To inspire requires an undying belief that the future is bright.": "Simon Sinek",
-    "People ask me where they should go to work, and I always tell them to go to work for whom they admire the most.": "Warren Buffett",
-    "If you need to regularly remind yourself that you're well paid, it's a sure sign you don't like your job.": "Simon Sinek"
+    "quotes":[
+        {
+            "content" : "Nothing good comes from being comfortable.",
+            "author" : "Jack White"
+        }, 
+        {
+            "content" : "Audacity augments courage; hesitation, fear.",
+            "author" : "Publilius Syrus"
+        },
+        {
+            "content" : "Hard choices, easy life. Easy choices, hard life.",
+            "author" : "Jerzy Gregorek"
+        },
+        {
+            "content" : "If more information was the answer, then we'd all be billionaires with perfect abs.",
+            "author" : "Derek Divers"
+        },
+        {
+            "content" : "Don't be a donkey (Aesop's fable); you can do everything you want to do. You just need foresight and patience.",
+            "author" : "Derek Sivers"
+        },
+        {
+            "content" : "Lack of time is lack of priorities.",
+            "author" : "Tim Ferriss"
+        },
+        {
+            "content" : "Never go to sleep without a request to your subconscious",
+            "author" : "Thomas Edison"
+        },
+        {
+            "content" : "Success is when reality catches up to our imagination.",
+            "author" : "Simon Sinek"
+        },
+        {
+            "content" : "A writer—and, I believe, generally all persons—must think that whatever happens to him or her is a resource. All things have been given to us for a purpose, and an artist must feel this more intensely. All that happens to us, including our humiliations, our misfortunes, our embarrassments, all is given to us as raw material, as clay, so that we may shape our art.",
+            "author" : "Jorge Luis Borges"
+        },
+        {
+            "content" : "Most geniuses—especially those who lead others—prosper not by deconstructing intricate complexities but by exploiting unrecognized simplicities.",
+            "author" : "Andy Benoit"
+        },
+        {
+            "content" : "Be tolerant with others and strict with yourself.",
+            "author" : "Marcus Aurelius"
+        },
+        {
+            "content" : "If a man knows not to which port he sails, no wind is favorable.",
+            "author" : "Seneca"
+        },
+        {
+            "content" : "Inaction breeds doubt and fear. Action breeds confidence and courage. If you want to conquer the negative elements in your life, don’t sit at home and think about it. Go out and get busy!",
+            "author" : "Dale Carnegie"
+        },
+        {
+            "content" : "People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things.",
+            "author" : "Steve Jobs"
+        },
+        {
+            "content" : "‘No one is useless in this world,’ retorted the Secretary, ‘who lightens the burden of it for anyone else.’",
+            "author" : "Charles Dickens, Our Mutual Friend"
+        },
+        {
+            "content" : "The secret to handling change is to focus on progress. If you can make progress on a regular basis, then you feel alive.",
+            "author" : "Tony Robbins"
+        },
+        {
+            "content" : "All great leaders are optimists. To inspire requires an undying belief that the future is bright.",
+            "author" : "Simon Sinek"
+        },
+        {
+            "content" : "People ask me where they should go to work, and I always tell them to go to work for whom they admire the most.",
+            "author" : "Warren Buffett"
+        },
+        {
+            "content" : "If you need to regularly remind yourself that you're well paid, it's a sure sign you don't like your job.",
+            "author" : "Simon Sinek"
+        }
+    ]
 }
