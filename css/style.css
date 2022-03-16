@@ -66,6 +66,7 @@ nav h1 {
 }
 .button {
     background-color: #8CFF98; /* Green */
+    color: white;
     border: none;
     text-align: center;
     text-decoration: none;
