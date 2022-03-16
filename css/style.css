@@ -310,6 +310,7 @@ footer {
 /* CALENDAR */
 .calendar {
     padding-top:50px;
+    height: 100vh;
 }
 
 /* RESPONSIVE STYLES */
