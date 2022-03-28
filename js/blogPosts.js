@@ -9,10 +9,9 @@ async function listPost(postContainerElementID) {
         let data1 = "";
         response.map((values) => {
             data1 = `
-            <a href="https://www.eewatchguy.com" target="_blank">
+            <a href=${values.link} target="_blank">
                 <h3>${values.title.rendered}</h3>
                 <p>${values.excerpt.rendered}</p>
-                <button><a href=${values.link}</button>
             </a>
             `
         })
