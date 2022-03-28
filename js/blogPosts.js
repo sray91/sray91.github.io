@@ -8,7 +8,13 @@ async function listPost(postContainerElementID) {
         console.log(response[0])
         let data1 = "";
         response.map((values) => {
-            data1 = `<h3>${values.title.rendered}</h3><p>${values.excerpt.rendered}</p><button><a href=${values.link}</button>`
+            data1 = `
+            <a href="https://www.eewatchguy.com" target="_blank">
+                <h3>${values.title.rendered}</h3>
+                <p>${values.excerpt.rendered}</p>
+                <button><a href=${values.link}</button>
+            </a>
+            `
         })
         document.getElementById(postContainerElementID).innerHTML = data1;
     }).catch((err) => {
