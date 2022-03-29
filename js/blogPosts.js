@@ -10,8 +10,12 @@ async function listPost(postContainerElementID) {
         response.map((values) => {
             data1 = `
             <a href=${values.link} target="_blank">
-                <h3>${values.title.rendered}</h3>
-                <p>${values.excerpt.rendered}</p>
+                <figure class="blog-post-figure">
+                    <div class="blog-post-container">
+                        <h3 class="blog-post-content">${values.title.rendered}</h3>
+                        <p class="blog-post-content">${values.excerpt.rendered}</p>
+                    </div>
+                </figure>
             </a>
             `
         })

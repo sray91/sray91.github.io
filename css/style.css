@@ -66,6 +66,9 @@ nav h1 {
     color: #8CFF98;
     text-decoration: none;
 }
+.nav-link {
+    color: #8CFF98;
+}
 
 button {
     padding: 8px;
@@ -211,7 +214,6 @@ button {
 ---------------------------------------------- */
 .my-thoughts {
     background-color: #011627;
-    color: white; 
     text-align: center;
 }
 .my-thoughts h2 {
@@ -232,8 +234,18 @@ button {
 .my-thoughts h2:after {
     margin: 0 0 0 20px;
 }
-.blog-post-styles {
-
+.blog-post-content h2 {
+    color: #BB4430;
+}
+.blog-post-container {
+    color: black;
+}
+.blog-post-figure {
+    background-color: white;
+    border-radius: 15px;
+}
+.blog-post-container {
+    padding: 20px;
 }
 
 /* MY JOURNEY STYLES
