@@ -11,8 +11,10 @@ async function listPost(postContainerElementID) {
             data1 = `
             <a href=${values.link} target="_blank">
                 <figure class="blog-post-figure">
+                    <img class="blog-post-img" src="./images/eeWatchGuyLogoAngle.png" alt="" width="200" height="200"></img> 
                     <div class="blog-post-container">
                         <h3 class="blog-post-content">${values.title.rendered}</h3>
+                        <p class="blog-post-content">${values.date}</p>
                         <p class="blog-post-content">${values.excerpt.rendered}</p>
                     </div>
                 </figure>

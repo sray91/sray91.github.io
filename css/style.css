@@ -234,18 +234,20 @@ button {
 .my-thoughts h2:after {
     margin: 0 0 0 20px;
 }
-.blog-post-content h2 {
-    color: #BB4430;
+.blog-post-content h3 {
+    color: black;
 }
 .blog-post-container {
-    color: black;
+    color: #a9a9a9;
+    padding: 20px;
 }
 .blog-post-figure {
     background-color: white;
     border-radius: 15px;
+    display: flex;
 }
-.blog-post-container {
-    padding: 20px;
+.blog-post-img {
+    background-color: linear-gradient(to bottom right, #BB4430 , #8CFF98);
 }
 
 /* MY JOURNEY STYLES
