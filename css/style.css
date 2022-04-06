@@ -21,9 +21,6 @@ body {
     padding: 0;
     font-size: 16px;
 }
-a {
-    text-decoration: none;
-}
 h2 {
     margin: 0;
 }
@@ -68,6 +65,8 @@ nav h1 {
 }
 .nav-link {
     color: #8CFF98;
+    text-decoration: none;
+    text-decoration-color: none;
 }
 
 button {
@@ -104,6 +103,13 @@ button {
     font-size: 4em;
     font-weight: 900;
     text-align: center;
+}
+.title2 {
+    color: #BB4430;
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px;
 }
 
 /* INSPIRATION STYLES
@@ -234,6 +240,11 @@ button {
 .my-thoughts h2:after {
     margin: 0 0 0 20px;
 }
+.blog-post-link {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #A9A9A9;
+}
 .blog-post-figure {
     background-color: white;
     border-radius: 15px;
@@ -334,6 +345,8 @@ footer {
 .contact-list a {
     padding: 16px;
     display: inline-block;
+    text-decoration: none;
+    text-decoration-color: none;
 }
 
 /* CALENDAR */

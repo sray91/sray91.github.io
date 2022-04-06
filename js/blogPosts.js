@@ -8,7 +8,7 @@ async function listPost(postContainerElementID) {
         let data = "";
         response.map((values) => {
             data = `
-            <a href=${values.link} target="_blank">
+            <a class="blog-post-link" href=${values.link} target="_blank">
                 <figure class="blog-post-figure">
                     <div class="blog-post-img" >
                         <img src="./images/eeWatchGuyLogoAngle.png" alt="" width="200" height="200"></img>
