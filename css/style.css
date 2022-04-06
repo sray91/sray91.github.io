@@ -4,6 +4,7 @@
 #011627 - soft black
 #BB4430 - dark orange
 #CAE9FF - light blue
+#b5c2cb - light gray
 */
 
 /* GLOBAL STYLES
@@ -21,7 +22,6 @@ body {
     font-size: 16px;
 }
 a {
-    color: white;
     text-decoration: none;
 }
 h2 {
@@ -234,20 +234,26 @@ button {
 .my-thoughts h2:after {
     margin: 0 0 0 20px;
 }
-.blog-post-content h3 {
-    color: black;
-}
-.blog-post-container {
-    color: #a9a9a9;
-    padding: 20px;
-}
 .blog-post-figure {
     background-color: white;
     border-radius: 15px;
     display: flex;
 }
 .blog-post-img {
-    background-color: linear-gradient(to bottom right, #BB4430 , #8CFF98);
+    display: flex;
+    background: linear-gradient(#2274A5, #8CFF98);
+    border-radius: 15px 0px 0px 15px;
+    justify-content: center;
+    align-items: center;
+}
+.blog-post-container {
+    padding: 20px;
+}
+.blog-post-content-h3 {
+    color: black;
+}
+.blog-content {
+    color: #b5c2cb;
 }
 
 /* MY JOURNEY STYLES
