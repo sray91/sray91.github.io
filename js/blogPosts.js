@@ -11,7 +11,7 @@ async function listPost(postContainerElementID) {
             <a class="blog-post-link" href=${values.link} target="_blank">
                 <figure class="blog-post-figure">
                     <div class="blog-post-img" >
-                        <img src="./images/eeWatchGuyLogoAngle.png" alt="" width="200" height="200"></img>
+                        <img src="./images/eeWatchGuyLogo.svg" alt="" width="200" height="200"></img>
                     </div>
                     <div class="blog-post-container">
                         <h3 class="blog-post-content-h3">${values.title.rendered}</h3>

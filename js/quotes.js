@@ -1,11 +1,18 @@
-// pure javascript
-let object;
-let httpRequest = new XMLHttpRequest(); // asynchronous request
-httpRequest.open("GET", "../content/quotes.json", true);
-httpRequest.send();
-httpRequest.addEventListener("readystatechange", function() {
-    if (this.readyState === this.DONE) {
-      	// when the request has completed
-        object = JSON.parse(this.response);
-    }
-});
+async function loadQuotes(postContainerElementID) {
+    fetch("../content/quotes.json")
+        .then(Response => Response.json())
+        .then(Response => {
+            let data = "";
+            Response.map((values) => {
+                data = `
+                    <p class="reveal">
+                        <br><strong>“${values.content}”</strong>
+                        <br><em>${values.author}</em>
+                    </p>
+                `
+            })
+            document.getElementById(postContainerElementID).innerHTML = data;
+        });
+}
+
+loadQuotes('quotes');
