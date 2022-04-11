@@ -1,3 +1,5 @@
+// this function pulls in the json quotes file and pushes 5 random quotes to the front page
+
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
@@ -7,7 +9,7 @@ async function loadQuotes(postContainerElementID) {
     fetch("../content/quotes.json")
         .then(Response => Response.json()) 
         .then(Response => {
-            
+
             let data = "";
             let startNum = getRandomInt(Response.length);
             (startNum >= (Response.length-5)) ? (startNum-=5) : null;
