@@ -88,6 +88,7 @@ button {
 /* PROFILE STYLES
 ---------------------------------------------- */
 .hero-container {
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -119,6 +120,7 @@ button {
     color: #011627; 
     text-align: center;
     font-size: 18px;
+    height: 100%;
 }
 .inspiration h2 {
     display: flex;
@@ -153,6 +155,7 @@ button {
 .projects {
     background-color: #011627;
     color: white; 
+    height: 100%;
 }
 .projects img {
     width: 150px;
@@ -272,6 +275,7 @@ button {
 .my-journey {
     background-color: #FFFFFF;
     color: #011627; 
+    height: 100%;
 }
 .my-journey h2 {
     display: flex;
