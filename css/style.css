@@ -28,6 +28,7 @@ h2 {
     max-width: 800px;
     /* when the viewport is smaller than the max-width, it switches to the width */
     width: 85%;
+    min-height: 100%;
     margin: 0 auto;
     padding: 60px 0;
 }
@@ -157,10 +158,6 @@ button {
     color: white; 
     height: 100%;
 }
-.projects img {
-    width: 150px;
-    border-radius: 16px;
-}
 .projects h2 {
     display: flex;
     width: 100%;
@@ -179,20 +176,41 @@ button {
 .projects h2:after {
     margin: 0 0 0 20px;
 }
-.projects a {
-    background-color: #BB4430;
-    color: white;
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project-card {
+    background: white;
+    margin-bottom: 2em; 
+    flex: 0 1 calc(25% - 1em);
+    border-radius: 15px;
+}
+.project-card a {
+    color: black;
     text-decoration: none;
-    padding: 8px;
-    border-radius: 4px;
 }
-.projects a:hover {
-    background-color: rgba(187, 68, 48, 80);
+.project-card a:hover {
+    box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
 }
-.project-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    gap: 20px;
+.thumbnail img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto; 
+    border-radius: 15px 15px 0px 0px;
+}
+.project-card-content {
+    padding: 1.4em;
+}
+.project-card-content h3 {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+.project-card-content p {
+    font-size: 80%;
 }
 
 /* COMMUNITIES STYLES
@@ -333,6 +351,32 @@ button {
     padding: 16px;
     background-color:#CAE9FF;
 }
+.circle {
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    height: 150px;
+    width: 150px;
+    background-color: #555;
+    background-image: url(../images/dupontLogo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    z-index: 100;
+  }
+  .circle:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: transform .2s; /* Animation */
+  }
+  .v-line {
+    border-left: 2px solid black;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 200;
+  }
 
 
 /* CONTACT INFO STYLES
