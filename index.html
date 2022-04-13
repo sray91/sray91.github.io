@@ -23,18 +23,23 @@
         <script src="https://kit.fontawesome.com/cb3a864d41.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#profile">Profile</a>
+              <a href="#projects">Projects</a>
+              <a href="#communities">Communities</a>
+              <a href="#my-thoughts">Thoughts</a>
+              <a href="#my-journey">My Journey</a>
+              <a href="#contact">Contact</a>
+              <a href="./schedule.html">Calendar</a>
+            </div>
+            <script src="js/navigation.js" async></script>
+          </div>
         <!-- NAVBAR -->
         <nav>
             <h1>SWANAGAN</h1>
-            <ul class="nav-list">
-                <li class="list-item"><a href="#profile" class="nav-link">Profile</a></li>
-                <li class="list-item"><a href="#projects" class="nav-link">Projects</a></li>
-                <li class="list-item"><a href="#communities" class="nav-link">Communities</a></li>
-                <li class="list-item"><a href="#my-thoughts" class="nav-link">Thoughts</a></li>
-                <li class="list-item"><a href="#my-journey" class="nav-link">My Journey</a></li>
-                <li class="list-item"><a href="#contact" class="nav-link">Contact</a></li>
-                <li class="calendar-button"><a href="./schedule.html"><button>Calendar</button></a></li>
-            </ul>
+            <span class="menu-bar" onclick="openNav()">&#9776;</span>
         </nav>
         <main>
             <!-- HERO -->

@@ -52,24 +52,6 @@ nav h1 {
     padding-top: 8px;
     padding-left: 8px;
 }
-.nav-list {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    padding: 0;
-}
-.list-item {
-    padding: 16px;
-    display: inline-block;
-    color: #8CFF98;
-    text-decoration: none;
-}
-.nav-link {
-    color: #8CFF98;
-    text-decoration: none;
-    text-decoration-color: none;
-}
-
 button {
     padding: 8px;
     background-color: #BB4430; /* Green */
@@ -84,6 +66,43 @@ button {
     padding: 16px;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    z-index: 2;
 }
 
 /* PROFILE STYLES
@@ -112,6 +131,12 @@ button {
     font-weight: 900;
     text-align: center;
     padding: 0px;
+}
+.menu-bar {
+    font-size: 3em;
+    cursor: pointer;
+    color: #8CFF98;
+    padding-right: 15px;
 }
 
 /* INSPIRATION STYLES
@@ -399,11 +424,6 @@ footer {
 
 /* RESPONSIVE STYLES */
 @media screen and (min-width: 750px){
-    .journey-item {
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr;
-        gap: 20px;
-    }
     .contact-list {
         display: flex;
         justify-content: center;
@@ -415,3 +435,12 @@ footer {
         padding: 5px;
     }
 }
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
