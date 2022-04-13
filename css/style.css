@@ -303,10 +303,6 @@ button {
     text-align: center;
     padding-bottom: 20px;
 }  
-.my-journey img {
-    width: 150px;
-    border-radius: 16px;
-}
 .my-journey h2:before, h2:after {
     content: '';
     border-top: 2px solid;
@@ -316,68 +312,66 @@ button {
 .my-journey h2:after {
     margin: 0 0 0 20px;
 }
-.journey-details {
-    margin: 0;
-    padding: 0;
-}
-.journey-bg-pic-sc {
-    height: 300px;
-    background-image: url(../images/charleston_skyline_background.jpeg);
-    border-radius: 16px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: white;
-    font-weight: 900;
-    font-size: 4em;
-    align-content: center;
-}
 .journey-bg-pic-wv {
-    height: 300px;
+    height: 250px;
     background-image: url(../images/wv_skyline_background.jpeg);
     border-radius: 16px;
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
     font-weight: 900;
-    font-size: 4em;
+    font-size: 5em;
     align-content: center;
+    padding: 18px;
 }
-.grow {
-    transition: all .2s ease-in-out;
-}
-.grow:hover {
-    transform: scale(1.1);
+.journey-bg-pic-sc {
+    height: 250px;
+    background-image: url(../images/charleston_skyline_background.jpeg);
     border-radius: 16px;
-    padding: 16px;
-    background-color:#CAE9FF;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-weight: 900;
+    font-size: 5em;
+    align-content: center;
+    padding: 18px;
 }
 .circle {
     margin: auto;
-    align-items: center;
-    align-content: center;
+    background: white;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
     height: 150px;
     width: 150px;
-    background-color: #555;
-    background-image: url(../images/dupontLogo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    border-radius: 50%;
-    z-index: 100;
+    overflow: hidden;
   }
-  .circle:hover {
-    transform: scale(1.5);
+.circle:hover {
+    border-width: 6px;
+    border-color: #BB4430;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition: transform .2s; /* Animation */
-  }
-  .v-line {
+}
+.circle-img {
+    width: 100%;
+    height: auto;
+}
+.v-line {
     border-left: 2px solid black;
     height: 100px;
     position: relative;
     left: 50%;
     margin-left: -3px;
-    z-index: 200;
-  }
-
+}
+.reveal-journey {
+    position: relative;
+    opacity: 0;
+    transition: 2s all ease;
+}
+.reveal-journey.active {
+    opacity: 1;
+}
 
 /* CONTACT INFO STYLES
 ---------------------------------------------- */

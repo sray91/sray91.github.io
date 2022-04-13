@@ -12,8 +12,8 @@ async function loadQuotes(postContainerElementID) {
 
             let data = "";
             let startNum = getRandomInt(Response.length);
-            (startNum >= (Response.length-5)) ? (startNum-=5) : null;
-            let endNum = startNum + 5;
+            (startNum >= (Response.length-3)) ? (startNum-=3) : null;
+            let endNum = startNum + 3;
 
             Response.slice(startNum, endNum).map((values) => {
                 data = `
