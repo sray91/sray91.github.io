@@ -375,16 +375,22 @@ button {
     height: 150px;
     width: 150px;
     overflow: hidden;
-  }
-.circle:hover {
-    border-width: 6px;
-    border-color: #BB4430;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    transition: transform .2s; /* Animation */
+    display: flex;
+    align-items: center;
 }
-.circle-img {
-    width: 100%;
-    height: auto;
+.circle:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s all ease;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.circle-image {
+    vertical-align: middle;
+    max-width: 150px;
+    max-height: 150px;
 }
 .v-line {
     border-left: 2px solid black;
