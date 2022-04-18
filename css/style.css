@@ -11,6 +11,8 @@
 ---------------------------------------------- */
 html {
     box-sizing: border-box;
+    background-color: #011627;
+    color: white;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -124,7 +126,7 @@ button {
     width: 500px;
 }
 .title {
-    color: #011627;
+    color: white;
     font-size: 4em;
     font-weight: 900;
     text-align: center;
@@ -146,8 +148,6 @@ button {
 /* INSPIRATION STYLES
 ---------------------------------------------- */
 .inspiration {
-    background-color: #FFFFFF;
-    color: #011627; 
     text-align: center;
     font-size: 18px;
     height: 100%;
@@ -245,8 +245,6 @@ button {
 /* COMMUNITIES STYLES
 ---------------------------------------------- */
 .communities {
-    background-color: #FFFFFF;
-    color: #011627; 
     text-align: center;
 }
 .communities h2 {
@@ -269,7 +267,6 @@ button {
 /* THOUGHTS STYLES
 ---------------------------------------------- */
 .my-thoughts {
-    background-color: #011627;
     text-align: center;
 }
 .my-thoughts h2 {
@@ -320,8 +317,6 @@ button {
 /* MY JOURNEY STYLES
 ---------------------------------------------- */
 .my-journey {
-    background-color: #FFFFFF;
-    color: #011627; 
     height: 100%;
 }
 .my-journey h2 {
@@ -393,7 +388,7 @@ button {
     max-height: 150px;
 }
 .v-line {
-    border-left: 2px solid black;
+    border-left: 2px solid white;
     height: 100px;
     position: relative;
     left: 50%;
@@ -453,4 +448,4 @@ footer {
     top: 15px;
     right: 35px;
     }
-  }
+}
