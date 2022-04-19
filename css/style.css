@@ -11,7 +11,7 @@
 ---------------------------------------------- */
 html {
     box-sizing: border-box;
-    background-color: #011627;
+    background-color: black;
     color: white;
 }
 *, *:before, *:after {
@@ -41,17 +41,18 @@ a {
 /* NAVBAR STYLES
 ---------------------------------------------- */
 nav {
-    background-color: #011627;
+    background-color: black;
     font-weight: 900;
-    color: white; 
+    color: #CAE9FF; 
     padding: 8px;
     display: flex;
     justify-content: space-between;
     position: fixed;
     overflow: hidden;
-    top: 0;
-    width: 100%;
+    top: -70px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
     z-index: 1;
+    transition: top 0.5s; /* Transition effect when sliding down (and up) */
 }
 nav h1 {
     justify-content: left;
@@ -183,7 +184,7 @@ button {
 /* PROJECTS STYLES
 ---------------------------------------------- */
 .projects {
-    background-color: #011627;
+    background-color: black;
     color: white; 
     height: 100%;
 }
@@ -374,7 +375,7 @@ button {
     align-items: center;
 }
 .circle:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
     transition: 0.5s all ease;
 }
 .helper {
@@ -406,7 +407,7 @@ button {
 /* CONTACT INFO STYLES
 ---------------------------------------------- */
 footer {
-    background-color: #011627;
+    background-color: black;
     color: #CAE9FF; 
     text-align: center;
 }
