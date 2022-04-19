@@ -384,9 +384,12 @@ button {
     vertical-align: middle;
 }
 .circle-image {
-    vertical-align: middle;
-    max-width: 150px;
-    max-height: 150px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .v-line {
     border-left: 2px solid white;
@@ -422,13 +425,36 @@ footer {
     text-decoration-color: none;
 }
 
-/* CALENDAR */
+/* CALENDAR 
+---------------------------------------------- */
 .calendar {
     padding-top:50px;
     height: 100vh;
+    overflow: hidden; /* Hide scrollbars */
+}
+.calendar-nav {
+    background-color: black;
+    font-weight: 900;
+    color: #CAE9FF; 
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    overflow: hidden;
+    top: 0px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+}
+.calendar-nav h1 {
+    justify-content: left;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.list {
+    list-style-type: none;
 }
 
-/* RESPONSIVE STYLES */
+/* RESPONSIVE STYLES 
+---------------------------------------------- */
 @media screen and (min-width: 750px){
     .contact-list {
         display: flex;
