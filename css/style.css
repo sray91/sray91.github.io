@@ -146,6 +146,31 @@ button {
     padding-right: 15px;
 }
 
+/* PROJECTS STYLES
+---------------------------------------------- */
+.about {
+    text-align: center;
+    font-size: 18px;
+    height: 100%;
+}
+.about h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}  
+.about h2:before, h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+.about h2:after {
+    margin: 0 0 0 20px;
+}
+
 /* INSPIRATION STYLES
 ---------------------------------------------- */
 .inspiration {
@@ -377,6 +402,7 @@ button {
 .circle:hover {
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
     transition: 0.5s all ease;
+    cursor: pointer;
 }
 .helper {
     display: inline-block;
@@ -417,6 +443,12 @@ button {
     font-size: 1em;
     align-content: center;
     padding: 18px;
+}
+.resume-details {
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+    align-content: center;
 }
 
 /* CONTACT INFO STYLES
