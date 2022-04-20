@@ -195,7 +195,7 @@ button {
     align-items: center;
     text-align: center;
     padding-bottom: 30px;
-    color: #CAE9FF; 
+    color: white; 
 }  
 .projects h2:before, h2:after {
     content: '';
@@ -277,7 +277,7 @@ button {
     align-items: center;
     text-align: center;
     padding-bottom: 30px;
-    color: #CAE9FF; 
+    color: white; 
 }  
 .my-thoughts h2:before, h2:after {
     content: '';
@@ -406,12 +406,24 @@ button {
 .reveal-journey.active {
     opacity: 1;
 }
+.detail-box {
+    height: 250px;
+    background-color: white;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+    align-content: center;
+    padding: 18px;
+}
 
 /* CONTACT INFO STYLES
 ---------------------------------------------- */
 footer {
     background-color: black;
-    color: #CAE9FF; 
+    color: white; 
     text-align: center;
 }
 .contact-list {
