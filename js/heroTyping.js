@@ -1,7 +1,7 @@
 var i = 0;
 var j = 0;
 var txt = "Hi, I'm Swanagan"; /* The text */
-var txt2 = "web3 engineer";
+var txt2 = "Optimalist";
 var speed = 75; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
