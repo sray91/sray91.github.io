@@ -1,8 +1,8 @@
-const apiURL = 'https://eewatchguy.com/wp-json/wp/v2/posts?per_page=1';
+const apiURL = 'https://optimalist.blog/wp-json/wp/v2/posts?per_page=1';
 
 async function listPost(postContainerElementID) {
 
-    fetch('https://eewatchguy.com/wp-json/wp/v2/posts?per_page=1')
+    fetch('https://optimalist.blog/wp-json/wp/v2/posts?per_page=1')
     .then( response => response.json())
     .then( response => {
         let data = "";
